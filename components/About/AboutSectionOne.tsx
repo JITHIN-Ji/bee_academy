@@ -57,8 +57,8 @@ const AboutSectionOne = () => {
             {/* Left side - Text (No animation) */}
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Build Your Fashion Design Career with Us"
-                paragraph="Our comprehensive fashion design program combines theoretical knowledge with practical studio experience. Learn from industry experts, work with modern design tools, and build a professional portfolio that opens doors to top fashion companies worldwide."
+                title="Build Your Career — Fashion Design & Creative Programs"
+                paragraph="Bee Academy primarily focuses on fashion design, while offering a wide range of equally valued creative courses. Our programs combine theoretical knowledge with hands-on studio experience, taught by industry professionals to help you build a strong portfolio and career in your chosen field."
                 mb="44px"
               />
 

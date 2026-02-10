@@ -8,7 +8,7 @@ const Features = () => {
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Why Choose Our Fashion Academy?"
+            title="Why Choose Bee Institute?"
             paragraph="We offer comprehensive fashion design education with industry-expert instructors, hands-on training, modern facilities, and guaranteed career support to launch your fashion career."
             center
           />

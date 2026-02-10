@@ -31,17 +31,18 @@ const Hero = () => {
               >
                 <div className="mb-4">
                   <span className="inline-block rounded-full bg-primary/10 px-4 py-2 text-sm font-semibold text-primary">
-                      👗 Welcome to Bee Academy
+                       Bee Academy — Fashion & Creative Programs
                   </span>
                 </div>
                 <h1 className="mb-6 text-4xl font-bold leading-tight text-black sm:text-5xl md:text-6xl">
-                  Master the Art of{" "}
-                  <span className="text-primary">Fashion Design</span>
+                  Focused on Fashion Design,
+                  <span className="text-primary"> and Creative Excellence</span>
                 </h1>
                 <p className="mb-8 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
-                  Learn professional fashion design skills from industry
-                  experts. Transform your passion for style into a thriving
-                  career with our comprehensive courses and hands-on training.
+                  While we specialize in fashion design education, Bee Academy
+                  offers a wide range of equally valued creative courses. Learn
+                  from industry experts and build practical skills across
+                  disciplines.
                 </p>
                 <div className="mb-8 flex items-center gap-6">
                   <div>

@@ -72,22 +72,21 @@ const AboutSectionTwo = () => {
                   WHO WE ARE
                 </span>
                 <h2 className="mb-6 text-3xl font-bold text-gray-900 md:text-4xl lg:text-5xl">
-                  Shaping the Future of Fashion Design
+                  Shaping Creative Careers — Fashion & More
                 </h2>
                 <p className="mb-6 text-lg text-gray-600">
-                  For over two decades, our academy has been at the forefront of fashion education, 
-                  nurturing creative talent and transforming aspiring designers into industry professionals.
+                  For over two decades, our academy has been at the forefront of creative education, with a strong
+                  emphasis on fashion design while supporting a broad range of equally valued creative programs.
                 </p>
                 <p className="mb-6 text-base text-gray-600">
-                  We combine traditional craftsmanship with cutting-edge technology, offering our students 
-                  a comprehensive education that prepares them for the ever-evolving fashion industry. Our 
-                  experienced faculty, state-of-the-art facilities, and industry connections create an 
-                  unparalleled learning environment.
+                  We combine traditional craftsmanship with cutting-edge technology, offering students a comprehensive
+                  education that prepares them for diverse creative industries. Our experienced faculty, facilities,
+                  and industry connections create a rich learning environment.
                 </p>
                 <p className="text-base text-gray-600">
-                  From conceptual design to final production, we equip our students with the skills, 
-                  knowledge, and confidence to excel in various fashion career paths, including haute couture, 
-                  ready-to-wear, sustainable fashion, fashion merchandising, and textile design.
+                  From conceptual design to production and creative entrepreneurship, we equip students with the skills,
+                  knowledge, and confidence to excel across multiple creative career paths, including fashion and related
+                  disciplines.
                 </p>
               </div>
 

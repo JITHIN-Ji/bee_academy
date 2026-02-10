@@ -14,7 +14,7 @@ const NewsLatterBox = () => {
         Get Free Course Guide
       </h3>
       <p className="mb-11 border-b border-body-color border-opacity-25 pb-11 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
-        Download our comprehensive course guide to learn about curriculum, fees, admission timeline, and career opportunities at our fashion academy.
+        Download our comprehensive course guide to learn about curriculum, fees, admission timeline, and career opportunities at Bee Institute.
       </p>
       <div>
         <input

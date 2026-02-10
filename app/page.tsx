@@ -12,7 +12,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Bee Acdemy",
-  description: "Master fashion design with Bee Acdemy's comprehensive courses. Learn from industry experts, gain hands-on experience, and launch your fashion career.",
+  description: "Bee Academy specializes in fashion design while offering a broad range of equally valued creative courses. Learn from industry experts, gain hands-on experience, and pursue the creative path you choose.",
 };
 
 export default function Home() {
