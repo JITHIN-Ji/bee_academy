@@ -1,0 +1,95 @@
+import { Tutor } from "@/types/tutor";
+
+const tutorsData: Tutor[] = [
+  {
+    id: 1,
+    name: "Priya Sharma",
+    title: "Senior Fashion Designer",
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop",
+    experience: "15+ years in fashion design and brand development",
+    bio: "Specializes in haute couture and contemporary fashion design. Has worked with leading fashion houses and entrepreneurial ventures across India and internationally.",
+  },
+  {
+    id: 2,
+    name: "Rajesh Kumar",
+    title: "Pattern Making & Garment Construction Expert",
+    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop",
+    experience: "18+ years in pattern drafting and garment manufacturing",
+    bio: "Expert in traditional and digital pattern making. Specializes in industrial garment construction, grading, and quality control for export houses.",
+  },
+  {
+    id: 3,
+    name: "Ananya Reddy",
+    title: "Textile & Design Specialist",
+    image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400&h=400&fit=crop",
+    experience: "12+ years in textile science and sustainable fashion",
+    bio: "Passionate about traditional Indian textiles and eco-friendly design practices. Mentors students in fabric selection and color theory.",
+  },
+  {
+    id: 4,
+    name: "Vikram Patel",
+    title: "Digital Fashion & CAD Expert",
+    image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop",
+    experience: "10+ years in digital design and fashion technology",
+    bio: "Expert in CAD design software, 3D garment visualization, and digital fashion illustration. Bridges traditional and modern fashion design methods.",
+  },
+  {
+    id: 5,
+    name: "Kavita Menon",
+    title: "Montessori Education Director",
+    image: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400&h=400&fit=crop",
+    experience: "20+ years in Montessori teaching and teacher training",
+    bio: "AMI certified Montessori trainer specializing in early childhood education. Director of teacher training programs with international recognition.",
+  },
+  
+  {
+    id: 7,
+    name: "Deepa Iyer",
+    title: "Beauty & Wellness Director",
+    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
+    experience: "16+ years in cosmetology and wellness education",
+    bio: "Certified in advanced beauty therapy, makeup artistry, and spa management. Specializes in holistic wellness and Ayurvedic beauty treatments.",
+  },
+  {
+    id: 8,
+    name: "Sanjay Deshmukh",
+    title: "Advanced Cosmetology Instructor",
+    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
+    experience: "12+ years in professional makeup and hair styling",
+    bio: "Expert in bridal makeup, editorial styling, and salon management. Trained under internationally acclaimed beauty professionals.",
+  },
+  {
+    id: 9,
+    name: "Dr. Meera Krishnan",
+    title: "Medical Laboratory Technology Expert",
+    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&h=400&fit=crop",
+    experience: "18+ years in clinical laboratory science and diagnostics",
+    bio: "Senior medical technologist with expertise in pathology, microbiology, hematology, and biochemistry. Dedicated to hands-on practical training.",
+  },
+  {
+    id: 10,
+    name: "Amit Gupta",
+    title: "Clinical Pathology Specialist",
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
+    experience: "14+ years in diagnostic laboratory management",
+    bio: "Expert in laboratory quality control, advanced diagnostic techniques, and medical equipment handling. Former chief technologist at premier hospitals.",
+  },
+  {
+    id: 11,
+    name: "Ritu Malhotra",
+    title: "Hospital Administration Director",
+    image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=400&h=400&fit=crop",
+    experience: "15+ years in healthcare management and operations",
+    bio: "Expert in hospital administration, healthcare policies, patient care management, and medical facility operations. Former administrator at multi-specialty hospitals.",
+  },
+  {
+    id: 12,
+    name: "Karan Singh",
+    title: "Office Administration & Management Expert",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+    experience: "12+ years in corporate administration and office management",
+    bio: "Specializes in office systems, business communication, HR processes, and administrative coordination. Expert in modern office technology and productivity tools.",
+  },
+];
+
+export default tutorsData;
