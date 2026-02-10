@@ -9,7 +9,7 @@ const starIcon = (
 const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
   const { star, name, designation, content } = testimonial;
 
-  const ratingIcons = [];
+  const ratingIcons: JSX.Element[] = [];
   for (let index = 0; index < star; index++) {
     ratingIcons.push(
       <span key={index} className="text-yellow">
@@ -23,7 +23,7 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
       <div className="wow fadeInUp h-full rounded-sm bg-white p-8 shadow-two duration-300 hover:shadow-one lg:px-5 xl:px-8">
         <div className="mb-5 flex items-center space-x-1">{ratingIcons}</div>
         <p className="mb-8 border-b border-body-color border-opacity-10 pb-8 text-base leading-relaxed text-body-color">
-          "{content}"
+          &ldquo;{content}&rdquo;
         </p>
         <div className="flex items-center">
           <div className="w-full">

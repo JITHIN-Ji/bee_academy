@@ -131,7 +131,8 @@ const Testimonials = () => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             // Trigger cards to appear one by one
-            displayedTestimonials.forEach((_, index) => {
+            const items = showAll ? testimonialData : testimonialData.slice(0, 6);
+            items.forEach((_, index) => {
               setTimeout(() => {
                 setVisibleCards((prev) => [...prev, index]);
               }, index * 200); // 200ms delay between each card
@@ -144,22 +145,24 @@ const Testimonials = () => {
       }
     );
 
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
+    const node = sectionRef.current;
+    if (node) {
+      observer.observe(node);
     }
 
     return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
+      if (node) {
+        observer.unobserve(node);
       }
     };
-  }, [displayedTestimonials]);
+  }, [showAll]);
 
   // Reset visible cards when showing all
   useEffect(() => {
     if (showAll) {
       setVisibleCards([]);
-      displayedTestimonials.forEach((_, index) => {
+      const items = testimonialData;
+      items.forEach((_, index) => {
         setTimeout(() => {
           setVisibleCards((prev) => [...prev, index]);
         }, index * 200);

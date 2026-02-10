@@ -137,9 +137,9 @@ const Header = () => {
                                 openIndex === index ? "block" : "hidden"
                               }`}
                             >
-                              {menuItem.submenu.map((submenuItem, index) => (
+                              {(menuItem.submenu || []).map((submenuItem, index) => (
                                 <Link
-                                  href={submenuItem.path}
+                                  href={submenuItem.path ?? '#'}
                                   key={index}
                                   className="block rounded py-2.5 text-sm text-black hover:text-primary lg:px-3"
                                 >

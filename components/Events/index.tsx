@@ -43,13 +43,14 @@ const Events = () => {
       { threshold: 0.1 }
     );
 
-    if (galleryRef.current) {
-      observer.observe(galleryRef.current);
+    const node = galleryRef.current;
+    if (node) {
+      observer.observe(node);
     }
 
     return () => {
-      if (galleryRef.current) {
-        observer.unobserve(galleryRef.current);
+      if (node) {
+        observer.unobserve(node);
       }
     };
   }, []);

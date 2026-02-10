@@ -8,7 +8,7 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 
 const CourseDetailPage = () => {
   const params = useParams();
-  const courseId = parseInt(params.slug as string);
+  const courseId = parseInt((params?.slug ?? "") as string);
   const course = coursesData.find((c) => c.id === courseId);
 
   if (!course) {
@@ -225,7 +225,7 @@ const CourseDetailPage = () => {
                           </div>
                         </div>
                         <p className="mb-2 text-base italic text-body-color dark:text-body-color-dark">
-                          "{review.feedback}"
+                          &ldquo;{review.feedback}&rdquo;
                         </p>
                         <p className="text-xs text-body-color dark:text-body-color-dark">
                           {review.date}

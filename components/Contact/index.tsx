@@ -15,7 +15,7 @@ const Contact = () => {
                 Join Bee Academy
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
-                Register your interest and we'll get back to you with course details, admission process, and scholarship opportunities.
+                Register your interest and we&rsquo;ll get back to you with course details, admission process, and scholarship opportunities.
               </p>
               <form>
                 <div className="-mx-4 flex flex-wrap">
