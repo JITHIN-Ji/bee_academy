@@ -100,7 +100,7 @@ const Events = () => {
               : "-translate-x-full opacity-0"
           }`}>
             <Image
-              src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=600&fit=crop"
+              src="/images/1.jpg"
               alt="Academy Workshop"
               width={600}
               height={400}
@@ -116,7 +116,7 @@ const Events = () => {
               : "translate-x-full opacity-0"
           }`}>
             <Image
-              src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=400&fit=crop"
+              src="/images/3.jpg"
               alt="Student Work"
               width={400}
               height={300}
@@ -131,7 +131,7 @@ const Events = () => {
               : "-translate-x-full opacity-0"
           }`}>
             <Image
-              src="https://images.unsplash.com/photo-1483389127117-b6a2102724ae?w=400&h=400&fit=crop"
+              src="/images/4.jpg"
               alt="Design Studio"
               width={400}
               height={300}
@@ -147,7 +147,7 @@ const Events = () => {
               : "translate-x-full opacity-0"
           }`}>
             <Image
-              src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=400&h=400&fit=crop"
+              src="/images/5.jpg"
               alt="Fashion Exhibition"
               width={400}
               height={300}
@@ -162,7 +162,7 @@ const Events = () => {
               : "-translate-x-full opacity-0"
           }`}>
             <Image
-              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop"
+              src="/images/6.jpg"
               alt="Workshop Session"
               width={400}
               height={300}
@@ -177,7 +177,7 @@ const Events = () => {
               : "translate-x-full opacity-0"
           }`}>
             <Image
-              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop"
+              src="/images/7.jpg"
               alt="Students Collaboration"
               width={600}
               height={400}

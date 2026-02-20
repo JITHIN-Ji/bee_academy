@@ -44,18 +44,7 @@ const Hero = () => {
                   from industry experts and build practical skills across
                   disciplines.
                 </p>
-                <div className="mb-8 flex items-center gap-6">
-                  <div>
-                    <p className="text-body-color">Students Trained</p>
-                  </div>
-                  <div>
-                    <p className="text-body-color">Expert Instructors</p>
-                  </div>
-                  <div>
-                    <p className="text-body-color">Job Placement</p>
-                  </div>
-                </div>
-
+                
                 <div className="flex flex-col items-start space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="/contact"

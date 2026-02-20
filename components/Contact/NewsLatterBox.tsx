@@ -57,7 +57,7 @@ const NewsLatterBox = () => {
               <p className="text-body-color dark:text-body-color-dark text-base leading-relaxed">
                 NATTUKALLINGAL TOWER<br/>
                 MIDDLE HILL MALAPPURAM<br/>
-                MALAPPURAM, 676505<br/>
+                676505<br/>
                 India
               </p>
             </div>
