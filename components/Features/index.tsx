@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useRef } from "react";
+import Image from "next/image";
 import featuresData from "./featuresData";
 
 const Features = () => {
@@ -256,10 +257,11 @@ const Features = () => {
                 border: "3px solid rgba(255,255,255,0.95)",
               }}
             >
-              <img
+              <Image
                 src="/images/02.jpg"
                 alt="Fashion design studio"
-                className="w-full h-full object-cover"
+                fill
+                className="object-cover"
                 style={{ objectPosition: "center top" }}
               />
               <div
@@ -282,10 +284,11 @@ const Features = () => {
                   border: "3px solid rgba(255,255,255,0.95)",
                 }}
               >
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&q=80"
                   alt="Fashion sketching"
-                  className="w-full h-full object-cover"
+                  fill
+                  className="object-cover"
                 />
               </div>
               <div
@@ -296,10 +299,11 @@ const Features = () => {
                   border: "3px solid rgba(255,255,255,0.95)",
                 }}
               >
-                <img
+                <Image
                   src="/images/01.webp"
                   alt="Fashion model"
-                  className="w-full h-full object-cover"
+                  fill
+                  className="object-cover"
                 />
               </div>
             </div>
@@ -381,10 +385,11 @@ const Features = () => {
                 border: "3px solid rgba(255,255,255,0.95)",
               }}
             >
-              <img
+              <Image
                 src="/images/02.jpg"
                 alt="Fashion design studio"
-                className="w-full h-full object-cover"
+                fill
+                className="object-cover"
                 style={{ objectPosition: "center top" }}
               />
               <div
@@ -399,23 +404,25 @@ const Features = () => {
             </div>
             <div className="grid grid-cols-2 gap-3">
               <div
-                className="rounded-xl overflow-hidden"
+                className="relative rounded-xl overflow-hidden"
                 style={{ height: "105px", boxShadow: "0 6px 22px rgba(150,90,30,0.12)", border: "3px solid rgba(255,255,255,0.95)" }}
               >
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&q=80"
                   alt="Sketching"
-                  className="w-full h-full object-cover"
+                  fill
+                  className="object-cover"
                 />
               </div>
               <div
-                className="rounded-xl overflow-hidden"
+                className="relative rounded-xl overflow-hidden"
                 style={{ height: "105px", boxShadow: "0 6px 22px rgba(150,90,30,0.12)", border: "3px solid rgba(255,255,255,0.95)" }}
               >
-                <img
+                <Image
                   src="/images/01.webp"
                   alt="Fashion"
-                  className="w-full h-full object-cover"
+                  fill
+                  className="object-cover"
                 />
               </div>
             </div>
