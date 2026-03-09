@@ -19,7 +19,7 @@ const Hero = () => {
         className="relative z-10 overflow-hidden bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 pb-16 pt-[120px] md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
         <div className="container">
-          <div className="-mx-4 flex flex-wrap items-center">
+          <div className="-mx-4 flex flex-wrap items-center overflow-hidden">
             {/* Left Content - Slides in from left */}
             <div className="w-full px-4 md:w-1/2 mb-8 md:mb-0">
               <div

@@ -58,11 +58,7 @@ const Events = () => {
     <>
       <section className="py-8 md:py-10 lg:py-12">
       <div className="container">
-        <SectionTitle
-          title="Celebrations & Programs"
-          paragraph="Memorable events, showcases, workshops and community programs we host throughout the year. Browse photos and highlights from our academy."
-          center
-        />
+        
 
         <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {eventsData.map((ev, index) => (
@@ -82,7 +78,7 @@ const Events = () => {
     </section>
 
     {/* Gallery Section */}
-    <section className="bg-gray-light dark:bg-bg-color-dark py-16 md:py-20 lg:py-28" ref={galleryRef}>
+    <section className="bg-gray-light dark:bg-bg-color-dark py-16 md:py-20 lg:py-28 overflow-hidden" ref={galleryRef}>
       <div className="container">
         <SectionTitle
           title="Academy Gallery"
