@@ -59,7 +59,6 @@ const Card = ({
   index: number;
 }) => {
   const avatar = getAvatar(testimonial.id);
-  // Stagger: each card pops up slightly after the previous
   const delay = `${index * 0.07}s`;
 
   return (
@@ -77,8 +76,8 @@ const Card = ({
         className="group relative h-full flex flex-col gap-4 rounded-2xl p-6 cursor-default"
         style={{
           background: "#ffffff",
-          border: `1px solid rgba(200,132,74,0.13)`,
-          boxShadow: "0 2px 20px rgba(160,97,42,0.07)",
+          border: `1px solid rgba(200,132,74,0.12)`,
+          boxShadow: "0 2px 16px rgba(160,97,42,0.06)",
           transition: "box-shadow 0.3s ease, border-color 0.3s ease, transform 0.3s ease",
         }}
         onMouseEnter={(e) => {
@@ -89,21 +88,18 @@ const Card = ({
         }}
         onMouseLeave={(e) => {
           const el = e.currentTarget;
-          el.style.boxShadow = "0 2px 20px rgba(160,97,42,0.07)";
-          el.style.borderColor = "rgba(200,132,74,0.13)";
+          el.style.boxShadow = "0 2px 16px rgba(160,97,42,0.06)";
+          el.style.borderColor = "rgba(200,132,74,0.12)";
           el.style.transform = "translateY(0) scale(1)";
         }}
       >
-        {/* Top shimmer on hover */}
         <div
           className="absolute top-0 left-8 right-8 h-0.5 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"
           style={{ background: `linear-gradient(90deg, transparent, ${BEE}, ${BEE_LIGHT}, transparent)` }}
         />
 
-        {/* Stars */}
         <StarRating count={testimonial.star} />
 
-        {/* Review text — no quotes */}
         <p
           className="text-sm leading-relaxed flex-1"
           style={{ color: "#4a3020", fontFamily: "'Georgia', serif" }}
@@ -111,13 +107,11 @@ const Card = ({
           {testimonial.content}
         </p>
 
-        {/* Divider */}
         <div
           className="h-px"
           style={{ background: `linear-gradient(90deg, rgba(200,132,74,0.3), rgba(232,180,138,0.15), transparent)` }}
         />
 
-        {/* Author row */}
         <div className="flex items-center gap-3">
           <div
             className="w-10 h-10 rounded-full flex items-center justify-center text-xs font-black shrink-0 tracking-wide"
@@ -133,10 +127,9 @@ const Card = ({
               {testimonial.designation}
             </p>
           </div>
-          {/* Verified tick */}
           <div
             className="shrink-0 w-6 h-6 rounded-full flex items-center justify-center"
-            style={{ background: "rgba(200,132,74,0.12)" }}
+            style={{ background: "rgba(200,132,74,0.10)" }}
           >
             <svg width="11" height="11" viewBox="0 0 24 24" fill="none"
               stroke={BEE} strokeWidth="2.8" strokeLinecap="round" strokeLinejoin="round"
@@ -195,14 +188,14 @@ const Testimonials = () => {
       ref={sectionRef}
       className="relative overflow-hidden py-20 md:py-24 lg:py-32"
       style={{
-        background: "linear-gradient(155deg, #fdf8f3 0%, #ffffff 55%, #fef5ec 100%)",
+        background: "linear-gradient(155deg, #fffefc 0%, #ffffff 55%, #fffcf8 100%)",
       }}
     >
-      {/* Ambient orbs */}
+      {/* Ambient orbs — very subtle */}
       <div className="absolute top-0 right-0 w-[520px] h-[520px] rounded-full pointer-events-none"
-        style={{ background: "radial-gradient(circle, rgba(200,132,74,0.08) 0%, transparent 65%)", transform: "translate(35%,-35%)" }} />
+        style={{ background: "radial-gradient(circle, rgba(200,132,74,0.04) 0%, transparent 65%)", transform: "translate(35%,-35%)" }} />
       <div className="absolute bottom-0 left-0 w-[420px] h-[420px] rounded-full pointer-events-none"
-        style={{ background: "radial-gradient(circle, rgba(200,132,74,0.06) 0%, transparent 65%)", transform: "translate(-35%,35%)" }} />
+        style={{ background: "radial-gradient(circle, rgba(200,132,74,0.03) 0%, transparent 65%)", transform: "translate(-35%,35%)" }} />
 
       <div className="container mx-auto px-4 relative z-10">
 
@@ -210,7 +203,7 @@ const Testimonials = () => {
         <div className="text-center mb-14">
           <span
             className="inline-block text-[10px] font-black tracking-[0.3em] uppercase mb-4 px-4 py-1.5 rounded-full"
-            style={{ color: BEE_DARK, background: "rgba(200,132,74,0.09)", border: "1px solid rgba(200,132,74,0.25)" }}
+            style={{ color: BEE_DARK, background: "rgba(200,132,74,0.07)", border: "1px solid rgba(200,132,74,0.18)" }}
           >
             Student Stories
           </span>

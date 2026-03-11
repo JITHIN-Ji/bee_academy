@@ -138,21 +138,21 @@ const Features = () => {
       id="features"
       className="relative py-16 md:py-28 overflow-hidden"
       style={{
-        background: "linear-gradient(160deg, #fdf8f3 0%, #fff9f5 60%, #fef4ea 100%)",
+        background: "linear-gradient(160deg, #fffdfb 0%, #ffffff 60%, #fffaf5 100%)",
       }}
     >
-      {/* Soft background orbs */}
+      {/* Soft background orbs — much more subtle */}
       <div
         className="absolute top-10 right-0 w-96 h-96 rounded-full pointer-events-none"
         style={{
-          background: "radial-gradient(circle, rgba(210,145,90,0.10) 0%, transparent 70%)",
+          background: "radial-gradient(circle, rgba(210,145,90,0.04) 0%, transparent 70%)",
           transform: "translate(40%,-20%)",
         }}
       />
       <div
         className="absolute bottom-10 left-0 w-80 h-80 rounded-full pointer-events-none"
         style={{
-          background: "radial-gradient(circle, rgba(180,120,70,0.09) 0%, transparent 70%)",
+          background: "radial-gradient(circle, rgba(180,120,70,0.04) 0%, transparent 70%)",
           transform: "translate(-40%, 20%)",
         }}
       />
@@ -162,7 +162,7 @@ const Features = () => {
         <div className="text-center mb-14">
           <span
             className="inline-block text-xs font-bold tracking-[0.2em] uppercase mb-4 px-4 py-1.5 rounded-full"
-            style={{ color: "#b8732e", background: "rgba(184,115,46,0.09)", border: "1px solid rgba(184,115,46,0.18)" }}
+            style={{ color: "#b8732e", background: "rgba(184,115,46,0.07)", border: "1px solid rgba(184,115,46,0.14)" }}
           >
             Why Choose Us
           </span>
@@ -202,9 +202,9 @@ const Features = () => {
                   opacity: 0,
                   transform: "translateX(-50px)",
                   transition: "opacity 0.55s ease, transform 0.55s ease, box-shadow 0.3s, border-color 0.3s",
-                  background: "rgba(255,255,255,0.88)",
-                  border: "1px solid rgba(184,115,46,0.14)",
-                  boxShadow: "0 3px 20px rgba(150,90,30,0.06)",
+                  background: "rgba(255,255,255,0.95)",
+                  border: "1px solid rgba(184,115,46,0.12)",
+                  boxShadow: "0 2px 14px rgba(150,90,30,0.05)",
                   backdropFilter: "blur(10px)",
                 }}
                 onMouseEnter={(e) => {
@@ -215,8 +215,8 @@ const Features = () => {
                 }}
                 onMouseLeave={(e) => {
                   if (e.currentTarget.getAttribute("data-animated") !== "true") return;
-                  e.currentTarget.style.boxShadow = "0 3px 20px rgba(150,90,30,0.06)";
-                  e.currentTarget.style.borderColor = "rgba(184,115,46,0.14)";
+                  e.currentTarget.style.boxShadow = "0 2px 14px rgba(150,90,30,0.05)";
+                  e.currentTarget.style.borderColor = "rgba(184,115,46,0.12)";
                   e.currentTarget.style.transform = "translateX(0)";
                 }}
               >
@@ -328,9 +328,9 @@ const Features = () => {
                   opacity: 0,
                   transform: "translateX(50px)",
                   transition: "opacity 0.55s ease, transform 0.55s ease, box-shadow 0.3s, border-color 0.3s",
-                  background: "rgba(255,255,255,0.88)",
-                  border: "1px solid rgba(184,115,46,0.14)",
-                  boxShadow: "0 3px 20px rgba(150,90,30,0.06)",
+                  background: "rgba(255,255,255,0.95)",
+                  border: "1px solid rgba(184,115,46,0.12)",
+                  boxShadow: "0 2px 14px rgba(150,90,30,0.05)",
                   backdropFilter: "blur(10px)",
                 }}
                 onMouseEnter={(e) => {
@@ -341,8 +341,8 @@ const Features = () => {
                 }}
                 onMouseLeave={(e) => {
                   if (e.currentTarget.getAttribute("data-animated") !== "true") return;
-                  e.currentTarget.style.boxShadow = "0 3px 20px rgba(150,90,30,0.06)";
-                  e.currentTarget.style.borderColor = "rgba(184,115,46,0.14)";
+                  e.currentTarget.style.boxShadow = "0 2px 14px rgba(150,90,30,0.05)";
+                  e.currentTarget.style.borderColor = "rgba(184,115,46,0.12)";
                   e.currentTarget.style.transform = "translateX(0)";
                 }}
               >
@@ -445,9 +445,9 @@ const Features = () => {
                   opacity: 0,
                   transform: "translateY(30px)",
                   transition: `opacity 0.5s ease ${i * 80}ms, transform 0.5s ease ${i * 80}ms`,
-                  background: "rgba(255,255,255,0.9)",
-                  border: "1px solid rgba(184,115,46,0.16)",
-                  boxShadow: "0 3px 16px rgba(150,90,30,0.07)",
+                  background: "rgba(255,255,255,0.97)",
+                  border: "1px solid rgba(184,115,46,0.12)",
+                  boxShadow: "0 2px 12px rgba(150,90,30,0.05)",
                 }}
               >
                 <span
